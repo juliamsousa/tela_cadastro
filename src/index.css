@@ -1,0 +1,99 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* usar o caminho todo */
+/* usar nomes intuitivos */
+/* usar porcentagem em width para responsividade */
+/* criar uma tag para reuso de codigo */
+
+/* estilizacao do header*/
+header {
+    background: #292929;
+    width: auto;
+    justify-items: center;
+    align-items: center;
+    display: grid;
+    padding: 30px;
+}
+
+/* estilizacao do titulo h1 */
+header #tituloCadastro {
+    font-family: 'Amatic SC';
+    color: #DBDAD2;
+    font-size: 45px;
+    font-weight: 400;
+}
+
+/* estilizacao do fieldset class=conjunto */
+body .conjunto {
+    background: #292929;
+    border: 0;
+    height: auto;
+    width: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    justify-content: space-around;
+}
+
+/* espacamento entre os campos*/
+.campo {
+    display: block;
+    color: #DBDAD2;
+    font-weight: 400;
+    font-size: 25px;
+    font-family: 'Roboto', 'serif';
+    margin-right: 1em;
+    justify-content: space-around;
+}
+
+/* estilizacao das labels*/
+.campo label {
+    margin-bottom: 0.2em;
+    color: #DBDAD2;
+    display: block;
+}
+
+/* estilizacao do campo input*/
+.campo input {
+    height: 25px;
+    width: 400px;
+}
+
+/* estilizacao de quando o campo e acionado*/
+.campo input:focus {
+    background: #DBDAD2;
+}
+
+/*estilizacao da div do botao de envio*/
+body #botaoEnviar {
+    background: #292929;
+    padding: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-items: center;
+    display: grid;
+}
+
+/* estilizacao do botao de envio*/
+body .botao {
+    font-family: 'Amatic SC';
+    font-size: 30px;
+    color: #DBDAD2;
+    font-weight: 400;
+    width: 200px;
+    height: 40px;
+    font-weight: 400;
+    background: none;
+    border: 2px solid #DBDAD2;
+    cursor: pointer;
+}
+
+/*estilziacao do hover*/
+body .botao:hover {
+    background: #a9a9a9;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
